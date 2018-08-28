@@ -66,5 +66,7 @@ flex-direction: column;
 }
 
 .box-1.image-content{
+  display: flex;
+  align-items: stretch; /*this moves the wording around */
   background-image: url('../../Resources/Images/img-jar-of-colorful-stuff.jpg');
 }
