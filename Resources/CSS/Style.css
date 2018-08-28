@@ -1,1 +1,76 @@
 /* css file for Cozy Tea */
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header{
+display: flex;
+align-items: center;
+flex-direction: row;
+position: fixed;
+z-index: 1;
+height: 69px;
+width: 100%;
+border: 1px solid white;
+background-color: black;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+}
+
+.logo img{
+margin-top: 12px;
+width: 150px;
+height: 50px;
+margin-right: 850px;
+border: 1px solid white;
+}
+
+nav span{
+  padding-right: 25px;
+  align-items: flex-end;
+  border: 1px solid white;
+}
+
+.box-1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 1200px;
+  height: 700px;
+  border: 1px solid white;
+}
+
+.box-1-img{
+  width: 1200px;
+  height: 700px;
+  padding-top: 75px;
+  padding-left: 95px;
+}
+
+.image-text h2{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  /*align-items: center;*/
+  /*align-content: center;*/
+  /*text-align: center;*/
+  justify-content: center;
+}
+
+.image-text h4{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  /*align-items: center;*/
+  /*align-content: center;*/
+  /*text-align: center;*/
+  justify-content: center;
+}
