@@ -48,7 +48,7 @@ flex-direction: column;
 
 
 /* Box-1 Section */
-.box-1{
+.box-1.image-content{
   display: flex;
   flex-direction: column;
   margin-left: 100px;
@@ -57,16 +57,32 @@ flex-direction: column;
   border: 1px solid white;
   justify-content: center;
   align-items: center;
+  /* align-items: stretch; /*this moves the wording around */
+  background-image: url('../../Resources/Images/img-jar-of-colorful-stuff.jpg');
 }
 
+.box1-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 1200px;
+  height: 200px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 
-.image-content{
+
+}
+
+.image-content {
   display: flex;
   flex-direction:
 }
 
+/*
 .box-1.image-content{
   display: flex;
   align-items: stretch; /*this moves the wording around */
-  background-image: url('../../Resources/Images/img-jar-of-colorful-stuff.jpg');
+  /* background-image: url('../../Resources/Images/img-jar-of-colorful-stuff.jpg');
 }
