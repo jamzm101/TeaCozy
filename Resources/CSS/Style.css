@@ -86,16 +86,24 @@ flex-direction: column;
 }
 
 
-
-/*  we may not need this section
-.image-content {
+.tea-h2{
   display: flex;
-  flex-direction:
+  flex-direction: column; /* this does matter */
+  width: 1200px;
+  height: 50px;
+  border: 1px solid white;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
 }
 
-/*
-.box-1.image-content{
+.steeping-h4{
   display: flex;
-  align-items: stretch; /*this moves the wording around */
-  /* background-image: url('../../Resources/Images/img-jar-of-colorful-stuff.jpg');
+  flex-direction: column; /* this does matter */
+  width: 1200px;
+  height: 50px;
+  border: 1px solid white;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
 }
