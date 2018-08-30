@@ -90,11 +90,14 @@ flex-direction: column;
   display: flex;
   flex-direction: column; /* this does matter */
   width: 1200px;
-  height: 50px;
+  height:50px;
   border: 1px solid white;
   justify-content:center;
   align-items:center;
   background-color: black;
+  margin-left: 100px;
+  padding-top: 30px;
+
 }
 
 .steeping-h4{
@@ -106,4 +109,26 @@ flex-direction: column;
   justify-content:center;
   align-items:center;
   background-color: black;
+  margin-left: 100px;
+}
+
+.three-images{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.a1{
+display: flex;
+flex-direction: column;
+background-image: url('../../resources/images/img-cup-of-berries.jpg');
+width: 300px;
+height: 200px;
+
 }
