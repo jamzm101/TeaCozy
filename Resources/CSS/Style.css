@@ -152,26 +152,29 @@ nav span{
   margin-left: 100px;
   width: 1200px;
   height: 50px;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   align-items: center;
   padding-left: 125px;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .berries-h4{
   display: flex;
-  border: 1px solid white;
-  margin-right: 0px;
+  /*border: 1px solid white;*/
+  padding-right: 175px;
+  margin-left: 30px;
+
 }
 
 .woodenbox-h4{
   display: flex;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
+  padding-right: 175px;
 }
 
 .donut-h4{
   display: flex;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .two-images{
